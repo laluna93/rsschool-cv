@@ -22,3 +22,13 @@ console.log(str2)
     return str2
 }
 ```
+## My Projects ##
+### While studying at the preparatory course at Rs School, I completed projects: ###
+* Portfolio https://laluna93.github.io/My-Projects/portfolio/
+* Eco-sounds https://laluna93.github.io/My-Projects/js30%201.1/
+* Random jokes https://laluna93.github.io/My-Projects/js30%201.2/
+* Tic tac toe https://laluna93.github.io/My-Projects/Js30%201.3/
+## Education ##
+RGSU finance and credit 
+## Language ##
+ English (B1)
