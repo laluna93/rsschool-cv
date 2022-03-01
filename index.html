@@ -5,10 +5,89 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <link rel="stylesheet" href="./style.css">
-    <title>Document</title>
+    <title>CV</title>
 </head>
 <body>
-    <h1>Hello World</h1>
-    <div>CV#2. HTML, CSS & Git Basics</div>
+
+  <header>
+<nav>
+    <ul>
+        <li>Contacts</li>
+        <li>About me</li>
+        <li>Skills</li>
+        <li>Code</li>
+        <li>My Projects</li>
+        <li>Education</li>
+        <li>Language</li>
+    </ul>
+</nav>
+<h1>Anna Zverintseva</h1>
+<div>
+<img src="./assets/img/cv.jpg" width="340" height="360" alt="photo">
+<div> 
+    <h2>Contacts</h2>
+<ul>
+    <li>telephone: +7-987-976-81-82</li>
+    <li>E-mail: Laluna-93@yandex.ru</li>
+</ul>
+</div>
+</div>
+  </header>
+
+  <main>
+<h2>About me</h2>
+<div>
+    I've always dreamed of mastering programming and creating websites and applications. It's always been interesting to me. After hearing about the recruitment for the Rs School preparatory course, I made an important decision for myself to link my life with the profession of "Front-end developer". Currently, I have completed the preparatory course and entered the 1st year to continue my studies and make my dreams come true.
+</div>
+
+<h2>Skills</h2>
+<ul>
+    <li>Git</li>
+    <li>GitHub</li>
+    <li>HTML5</li>
+    <li>CSS</li>
+    <li>Figma</li>
+    <li>JavaScript</li>
+</ul>
+
+<h2>Code</h2>
+
+<pre>
+    function highAndLow(numbers){
+        let str = numbers.split(' ')
+    let sort = str.sort((a,b)=> b-a).slice(0,1)
+    let sort2 = str.sort((a,b)=> a-b).slice(0,1)
+    let str2 = sort +' '+ sort2  
+    console.log(str2)
+        return str2
+    }
+</pre>
+
+<h2>My Projects</h2>
+<div>While studying at the preparatory course at Rs School, I completed projects:</div>
+<div>
+<div>Portfolio <a href="https://laluna93.github.io/My-Projects/portfolio/"><img src="" alt="">Portfolio</a></div>
+<div>Eco-sounds  <a href="https://laluna93.github.io/My-Projects/js30%201.1/"><img src="" alt="">Eco-sounds</a></div>
+<div>Random jokes  <a href="https://laluna93.github.io/My-Projects/js30%201.2/"><img src="" alt="">Random jokes</a></div>
+<div>Tic tac toe  <a href="https://laluna93.github.io/My-Projects/Js30%201.3/"><img src="" alt="">Tic tac toe</a></div>
+</div>
+
+<h2>Education</h2>
+<div>RGSU finance and credit</div>
+
+<h2>Language</h2>
+<div>English (B1)</div>
+  </main>
+
+<footer>
+<div>
+    <div><img src="./assets/svg/©b.svg" alt="c"></div>
+    <div>2022</div>
+    <div><a href="https://github.com/laluna93">github</a></div>
+    <div><a href="https://rs.school/js/"><img src="./assets/svg/rss.svg" alt="rss"></a></div>
+</div>
+
+</footer>
+
 </body>
 </html>
