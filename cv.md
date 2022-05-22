@@ -1,0 +1,34 @@
+# Anna Zverintseva #
+## Contacts: ##
+* telephone: +7-*******
+* E-mail:
+## About me ##
+### I've always dreamed of mastering programming and creating websites and applications. It's always been interesting to me. After hearing about the recruitment for the Rs School preparatory course, I made an important decision for myself to link my life with the profession of "Front-end developer". Currently, I have completed the preparatory course and entered the 1st year to continue my studies and make my dreams come true. ###
+## Skills ##
+1. Git 1
+2. GitHub 2
+3. HTML5 3
+4. CSS 4
+5. Figma 5
+6.  JavaScript 6
+## Code ##
+```
+function highAndLow(numbers){
+    let str = numbers.split(' ')
+let sort = str.sort((a,b)=> b-a).slice(0,1)
+let sort2 = str.sort((a,b)=> a-b).slice(0,1)
+let str2 = sort +' '+ sort2  
+console.log(str2)
+    return str2
+}
+```
+## My Projects ##
+### While studying at the preparatory course at Rs School, I completed projects: ###
+* Portfolio https://laluna93.github.io/My-Projects/portfolio/
+* Eco-sounds https://laluna93.github.io/My-Projects/js30%201.1/
+* Random jokes https://laluna93.github.io/My-Projects/js30%201.2/
+* Tic tac toe https://laluna93.github.io/My-Projects/Js30%201.3/
+## Education ##
+RGSU finance and credit 
+## Language ##
+ English (B1)
